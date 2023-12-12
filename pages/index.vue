@@ -1,9 +1,11 @@
 <template>
-	<div>
+	<div class="container">
 		<!--Partie HTML: Description des elements du site-->
-		<nav-bar class="navbar" />
+		<div class="navbar-container">
+			<nav-bar />
+		</div>
 
-		<div class="pour-les-jolies-couleurs">
+		<div class="reste-du-site">
 			<re-test />
 			<page2 />
 		</div>
@@ -25,11 +27,30 @@ export default {
 </script>
 
 <style scoped>
-.pour-les-jolies-couleurs {
+.container {
+	display: grid;
+	grid-template-columns: repeat(6, minmax(0, 1fr)); /* Grille de 6 colonnes */
+	width: 100vw;
+	max-width: 100vw;
+	height: 100%;
+}
+.navbar-container {
+	grid-column-start: 1; /* commence a la colonne numero 1 */
+	grid-column-end: 2; /* s'arrete a la colonne numero 2 */
+	width: 100%;
+	height: 100%;
+	display: contents;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.reste-du-site {
   color: white;
-  flex-grow: 10;
   align-items: center;
   text-align: center;
+	grid-column-start: 2; /* commence a la colonne numero 2 */
+	grid-column-end: 7; /* commence a la colonne numero 7 */
+	width: 100%;
  }
 </style>
 
