@@ -54,7 +54,7 @@ export default {
 .navbar-parent {
   width: 100%;
   height: 100%;
-	position: relative;
+position: relative;
 }
 
 /* Les éléments de la banderole */
@@ -93,7 +93,5 @@ button:focus {
   box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, #851397 0 0 10px;
 }
 
-/* button:active {
-    background-color: red;
-} */
+
 </style>

@@ -4,12 +4,12 @@
       <u>Front-end débutant</u>
     </h1>
 
-    <h2>(enfin un jour in sha'Allah)</h2>
+    <h2></h2>
 
     <img
-      src="@/res/no-pic-ava.jpg"
-      width="300"
-      height="300"
+      src="@/res/photo-tete.jpg"
+      width="400"
+      height="400"
       title=" Là où sera l'image de ma gueule"
     />
   </div>
