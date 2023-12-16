@@ -38,24 +38,29 @@
         href="https://www.linkedin.com/in/walie-houmad-089727238/"
         target="_blank"
       >
-        <img src="@/res/linkedin.png" height="50" title="OnlyFans" />
+        <img src="@/res/linkedin.png" height="50" title="OnlyFans" 
+        width="70"
+      />
       </a>
 
       <a
         class="Git-Hub"
         href="https://github.com/Walie-Matthieu"
         target="_blank"
+        
       >
-        <img src="@/res/git-hub-logo.png" height="50" title="OnlyFans" />
+        <img src="@/res/git-hub-logo.png" height="70" title="git-hub" 
+        width="120"
+        style="position: absolute; top: -13%;"/>
       </a>
 
-      <a
+      <!-- <a
         class="OnlyFans"
         href="https://www.youtube.com/shorts/vWUmk5-FO0I"
         target="_blank"
       >
         <img src="@/res/onlyfan%20logo.png" height="50" title="OnlyFans" />
-      </a>
+      </a> -->
     </p>
 
     <div class="lettre" id="formulaireDeContact">

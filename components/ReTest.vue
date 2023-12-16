@@ -8,7 +8,7 @@
 
     <img
       src="@/res/photo-tete.jpg"
-      width="400"
+      width="350"
       height="400"
       title=" Là où sera l'image de ma gueule"
     />
