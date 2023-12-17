@@ -10,7 +10,7 @@
       src="@/res/photo-tete.jpg"
       width="350"
       height="400"
-      title=" Là où sera l'image de ma gueule"
+      title="Ma tête"
     />
   </div>
 </template>
