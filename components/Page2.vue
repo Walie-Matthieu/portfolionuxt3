@@ -38,7 +38,7 @@
         href="https://www.linkedin.com/in/walie-houmad-089727238/"
         target="_blank"
       >
-        <img src="@/res/linkedin.png" height="50" title="OnlyFans" 
+        <img src="@/res/linkedin.png" height="50" title="Linkedin" 
         width="70"
       />
       </a>
