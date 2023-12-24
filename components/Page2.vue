@@ -1,8 +1,8 @@
 <template>
   <div class="body">
-    <h1 id="LaPresentation">Hi, I am Walie M. Hoummad</h1>
+    <h1 id="LaPresentation" class="le-titre">Hi, I am Walie M. Hoummad</h1>
 
-    <h2>
+    <h2 class="le-texte">
       I'm a french newbie on the front-developement, I currently study HTML CSS
       and JavaScript
       <br />
@@ -154,6 +154,7 @@ position: absolute; */
   min-height: 100vh;
   min-width: 100%;
   max-width: cover;
+  
 }
 
 .flex-parcour {
@@ -346,5 +347,20 @@ textarea:focus {
     )
     1;
   transition: all 0.6s;
+}
+
+.le-texte{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.le-titre{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>

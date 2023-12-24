@@ -1,6 +1,6 @@
 <template>
-  <div class="navbar-parent">
-    <div class="bouton">
+  <div class="sidebar">
+    <div class="liste-des-boutons">
       <button @click="scrollingButtons('Debut')">Presentation</button>
       <button @click="scrollingButtons('LaPresentation')">Information</button>
       <button @click="scrollingButtons('formulaireDeContact')">Contact</button>
@@ -19,57 +19,50 @@ export default {
   },
 
   methods: {
-    scrollToContact() {
-      // Trouver la div du formulaire de contact par son identifiant (id='...')
-      let elementContact = document.getElementById("formulaireDeContact");
-
-      // Scroll jusqu'au haut de l'element
-      elementContact.scrollIntoView({ behavior: "smooth" });
-    },
-
-    scrollToInformation() {
-      let elementInformation = document.getElementById("LaPresentation");
-
-      elementInformation.scrollIntoView({ behavior: "smooth" });
-    },
-
-    scrollToPresentation() {
-      let elementInformation = document.getElementById("Debut");
-
-      elementInformation.scrollIntoView({ behavior: "smooth" });
-    },
-
     scrollingButtons(destinationId) {
-      // Trouver la div du formulaire de contact par son identifiant (id='...')
-      let element = document.getElementById(destinationId);
 
-      // Scroll jusqu'au haut de l'element
-      element.scrollIntoView({ behavior: "smooth" });
+      // Trouver la div du formulaire de contact par son identifiant (id='...')
+      console.log('je viens de cliquer sur le bouton pour aller sur: ', destinationId);
+      let element = document.getElementById(destinationId);
+      console.log("la je viens de recuperer l'element: ", element);
+
+      // Le rectangle autour de l'element
+      let elementRectangle = element.getBoundingClientRect();
+      console.log("je viens de recuperer son rectangle: ", elementRectangle);
+
+      let nouvelleCoordonneY = window.scrollY + elementRectangle.y
+
+      console.log('sur le point de scroll vers la coordonnee: ', nouvelleCoordonneY);
+
+      // Cette fonction permet de scroll jusqu'a une certaine coordonnee
+      window.scrollTo ({        
+        top: nouvelleCoordonneY,
+        behavior:'smooth'
+      });
+      // top: la nouvelle coordonnee pour le haut de l'ecran
+      // window.scrollY est la coordonnee Y actuelle
+      // elementRectangle.y est la coordonnee Y de l'element cible RELATIVEMENT a l'ecran
     },
   },
 };
 </script>
 
+
 <style scoped>
-.navbar-parent {
-  width: 100%;
+.sidebar {
+  background-color: rgb(104, 115, 131);
   height: 100%;
-position: relative;
+	width: inherit;
 }
 
-/* Les éléments de la banderole */
-.bouton {
-  left: 0;
-  top: 0;
-  height: 100%;
+.liste-des-boutons {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   font-size: 1.125rem;
   line-height: 15rem;
-  display: flex;
-  flex-direction: column;
   gap: 10rem;
-	width: 100%;
-  background-color: rgb(104, 115, 131);
+  width: 100%;
 }
 
 /* Les boutons dans la banderole */
@@ -83,6 +76,8 @@ button {
   outline: solid rgb(68, 182, 186);
   transition: 1s;
   color: none;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 button:focus {
@@ -92,6 +87,4 @@ button:focus {
   animation: anim-shadow 0.3s forwards;
   box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, #851397 0 0 10px;
 }
-
-
 </style>

@@ -1,10 +1,8 @@
 <template>
-  <div id="Debut">
-    <h1 class="titre">
+  <div id="Debut" class="presentation">
+    <h1>
       <u>Front-end débutant</u>
     </h1>
-
-    <h2></h2>
 
     <img
       src="@/res/photo-tete.jpg"
@@ -18,7 +16,10 @@
 <style scoped>
 /* Partie CSS */
 
-.titre {
+.presentation {
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 </style>
