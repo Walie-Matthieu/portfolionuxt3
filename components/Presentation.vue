@@ -11,6 +11,8 @@
       title="Ma tête"
     />
   </div>
+  <br>
+  <br>
 </template>
 
 <style scoped>
@@ -22,4 +24,5 @@
   flex-direction: column;
   align-items: center;
 }
+
 </style>
