@@ -67,7 +67,7 @@ export default {
 
 /* Les boutons dans la banderole */
 button {
-  width: 98%;
+  width: 94%;
   border-radius: 20px;
   border: 1px;
   background-color: #0b0b0b;
@@ -78,6 +78,7 @@ button {
   color: none;
 	padding-left: 1rem;
 	padding-right: 1rem;
+  left: 6px;
 }
 
 button:focus {
