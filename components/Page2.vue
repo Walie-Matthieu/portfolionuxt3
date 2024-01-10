@@ -35,7 +35,7 @@
     <p class="flex-icon">
       <a
         class="linkedin"
-        href="https://www.linkedin.com/in/walie-houmad-089727238/"
+        href="https://www.linkedin.com/in/walie-hoummad-089727238/"
         target="_blank"
       >
         <img src="@/res/linkedin.png" height="50" title="Linkedin" 
@@ -54,13 +54,6 @@
         style="position: absolute; top: -13%;"/>
       </a>
 
-      <!-- <a
-        class="OnlyFans"
-        href="https://www.youtube.com/shorts/vWUmk5-FO0I"
-        target="_blank"
-      >
-        <img src="@/res/onlyfan%20logo.png" height="50" title="OnlyFans" />
-      </a> -->
     </p>
 
     <div class="lettre" id="formulaireDeContact">
