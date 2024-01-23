@@ -241,13 +241,11 @@ position: absolute; */
   width: 100%;
   font-size: 20px;
   border: none;
-  /* outline: none; */
   outline: solid;
   outline-color: cyan;
   outline-width: 0px;
-  /*border-bottom: 1px solid rgb(45, 45, 102);*/
-  /* transition: 0.5s ease; */
   height: 2rem;
+  background-color: rgb(71, 63, 63);
 }
 
 label {
@@ -276,7 +274,6 @@ label {
 .submit-button {
   background-color: blue;
   border-color: aqua;
-  /* width: 100%; */
   height: 150%;
   position: relative;
   z-index: 10;
@@ -291,6 +288,7 @@ label {
 }
 
 textarea {
+  background-color: rgb(71, 63, 63);
   width: 100%;
   height: 10rem;
   border-width: 0px;
