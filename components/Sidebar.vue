@@ -2,8 +2,8 @@
   <div class="sidebar">
     <div class="liste-des-boutons">
       <button class="Presentation-couleur" @click="scrollingButtons('Debut')">Presentation</button>
-      <button @click="scrollingButtons('LaPresentation')">Information</button>
-      <button @click="scrollingButtons('formulaireDeContact')">Contact</button>
+      <button class="Presentation-couleur" @click="scrollingButtons('LaPresentation')">Information</button>
+      <button class="Presentation-couleur" @click="scrollingButtons('formulaireDeContact')">Contact</button>
     </div>
   </div>
 </template>
@@ -90,7 +90,7 @@ button:focus {
 }
 
 .Presentation-couleur{
-  color: green;
+  color: white;
 
 }
 </style>
