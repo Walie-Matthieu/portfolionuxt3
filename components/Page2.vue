@@ -281,6 +281,7 @@ label {
   cursor: pointer;
   transition: 0, 25s;
   border-radius: 12px;
+  color: white;
 }
 
 .submit-button:active {
