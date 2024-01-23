@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar">
     <div class="liste-des-boutons">
-      <button @click="scrollingButtons('Debut')">Presentation</button>
+      <button class="Presentation-couleur" @click="scrollingButtons('Debut')">Presentation</button>
       <button @click="scrollingButtons('LaPresentation')">Information</button>
       <button @click="scrollingButtons('formulaireDeContact')">Contact</button>
     </div>
@@ -87,5 +87,10 @@ button:focus {
   outline: 2px solid #851397;
   animation: anim-shadow 0.3s forwards;
   box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, #851397 0 0 10px;
+}
+
+.Presentation-couleur{
+  color: green;
+
 }
 </style>
