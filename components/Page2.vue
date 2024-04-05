@@ -6,7 +6,7 @@
       I'm a french newbie on the front-developement, I currently study HTML CSS
       and JavaScript
       <br />
-      I usually work with Visual studio code, all part of my website have been
+      I usually work with Visual studio code, all parts of my website have been
       created with this tool
       <br />
       Here is my portfolio!
