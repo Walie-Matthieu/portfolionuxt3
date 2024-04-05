@@ -6,7 +6,7 @@
       I'm a french newbie on the front-developement, I currently study HTML CSS
       and JavaScript
       <br />
-      I ususally work with Visual studio code, all part of my website have been
+      I usually work with Visual studio code, all parts of my website have been
       created with this tool
       <br />
       Here is my portfolio!
@@ -64,10 +64,8 @@
           <div class="wrapper">
             <div class="box">
               <label for="fname">First Name</label>
-              <!-- <input type="text" name="fname" @click="activerLaPoutre"> -->
               <input type="text" name="fname" />
 
-              <!-- <div class="la-barre" v-show="laPoutre"></div> -->
             </div>
 
             <div class="box">
@@ -137,8 +135,6 @@ export default {
 /* Ne pas oublier de changer Git-Hub de position */
 .Git-Hub {
   color: rgb(0, 0, 8);
-  /* top: -50%;
-position: absolute; */
 }
 
 .body {
@@ -184,6 +180,8 @@ position: absolute; */
 .lettre {
   margin: 0;
   padding: 0%;
+  /* top: 0px; */
+  /* position: relative; */
   box-sizing: border-box;
 
   min-height: 100vh;
