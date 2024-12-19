@@ -3,7 +3,7 @@
     <h1 id="LaPresentation" class="le-titre">Hi, I am Walie M. Hoummad</h1>
 
     <h2 class="le-texte">
-      I'm a french newbie on the front-developement, I currently study HTML CSS
+      I'm a French newbie on the front-development, I currently study HTML CSS
       and JavaScript
       <br />
       I usually work with Visual studio code, all parts of my website have been
@@ -14,6 +14,7 @@
     </h2>
 
     <div class="flex-parcour">
+      
       <div class="miit">
         <div>MIIT</div>
         <div>CCNA</div>
@@ -139,11 +140,10 @@ export default {
 
 .body {
   background-color: rgb(3, 3, 73);
-  background-size: cover;
-  min-height: 100vh;
+  max-height: 100vh;
+  min-height: 100%;
   min-width: 100%;
-  max-width: cover;
-  
+
 }
 
 .flex-parcour {
@@ -178,7 +178,7 @@ export default {
 }
 
 .lettre {
-  margin: 0;
+  margin: 0%;
   padding: 0%;
   /* top: 0px; */
   /* position: relative; */
@@ -236,6 +236,7 @@ export default {
 }
 
 .wrapper .box input {
+  background-color: #473f3f;
   width: 100%;
   font-size: 20px;
   border: none;
@@ -287,7 +288,11 @@ label {
 }
 
 textarea {
+<<<<<<< HEAD
   background-color: rgb(71, 63, 63);
+=======
+  background-color: #473f3f;
+>>>>>>> dev
   width: 100%;
   height: 10rem;
   border-width: 0px;
