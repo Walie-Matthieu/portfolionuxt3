@@ -5,10 +5,10 @@
     </h1>
 
     <img
-      src="@/res/photo-tete.jpg"
-      width="350"
+      src="@/res/aigle.jpg"
+      width="500"
       height="400"
-      title="Ma tête"
+      title="Je suis celui au milieux entre l'aigle et le perroquet"
     />
   </div>
   <br>
