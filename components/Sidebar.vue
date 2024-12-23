@@ -51,27 +51,11 @@ export default {
 <style scoped>
 .sidebar {
   background-color: rgb(104, 115, 131);
-  height: 100%;
+  height: 100vh;
 	width: 100%;
   
 }
 
-     /* Adaptation pour les petits écrans */
-@media screen and (max-width: 768px) {
-    .sidebar {
-        width: 100%; /* Prend toute la largeur de l'écran */
-        position: fixed; /* Position fixe pour faciliter l'accès */
-        height: auto; /* Ajuste la hauteur si besoin */
-    }
-}
-
-/* Adaptation pour les très petits écrans */
-@media screen and (max-width: 480px) {
-    .sidebar {
-        width: 50%; /* Réduit légèrement la largeur */
-        height: 100%; /* Occupe tout l'écran en hauteur */
-    }
-}
 
     
 
